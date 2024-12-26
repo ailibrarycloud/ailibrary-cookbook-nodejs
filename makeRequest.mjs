@@ -2,7 +2,7 @@ import { request } from "node:https";
 
 export function makeRequest(messages, namespace, session_id, onChunk, onComplete) {
   const headers = {
-    "X-Library-Key": "d4qgdcs2lgUBvwWDFjC6NeOIrLS87cpoDHlwPL5a",
+    "X-Library-Key": "",
   };
 
   const options = {
